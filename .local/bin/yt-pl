@@ -1,0 +1,1 @@
+yt-dlp --format bestaudio -o '%(playlist_index)s - %(title)s.%(ext)s' $1

@@ -1,0 +1,41 @@
+window:
+  padding:
+    x: 8
+    y: 8
+  opacity: 0.8
+font:
+  normal:
+    family: Fira Mono
+    style: Regular
+  bold:
+    family: Fira Mono
+    style: Bold
+  italic:
+    family: Fira Mono
+    style: Italic
+  bold_italic:
+    family: Fira Mono
+    style: Bold Italic
+  size: 12.0
+colors:
+  primary:
+    background: '#21242b'
+    foreground: '#bbc2cf'
+  normal:
+    black:   '#1c1f24'
+    red:     '#f74c66'
+    green:   '#98be65'
+    yellow:  '#ecbe7b'
+    blue:    '#2c97f4'
+    magenta: '#c678dd'
+    cyan:    '#46d9ff'
+    white:   '#dfdfdf'
+  bright:
+    black:   '#54595e'
+    red:     '#f9788c'
+    green:   '#b1ce8b'
+    yellow:  '#efcb95'
+    blue:    '#60b1f6'
+    magenta: '#d499e5'
+    cyan:    '#74e2ff'
+    white:   '#e7e7e7'

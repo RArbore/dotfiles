@@ -1,0 +1,8 @@
+include ~/.config/newsboat/colors
+browser "$BROWSER %u"
+macro b set browser "~/.config/newsboat/nbyt %u 2.0 yt-dlp 18"; open-in-browser ; set browser "$BROWSER %u"
+macro v set browser "~/.config/newsboat/nbyt %u 1.0 yt-dlp 18"; open-in-browser ; set browser "$BROWSER %u"
+macro m set browser "~/.config/newsboat/nbyt %u 2.0 yt-dlp 22"; open-in-browser ; set browser "$BROWSER %u"
+macro n set browser "~/.config/newsboat/nbyt %u 1.0 yt-dlp 22"; open-in-browser ; set browser "$BROWSER %u"
+macro c set browser "~/.config/newsboat/mpvyt %u 2.0"; open-in-browser ; set browser "$BROWSER %u"
+macro x set browser "~/.config/newsboat/mpvyt %u 1.0"; open-in-browser ; set browser "$BROWSER %u"

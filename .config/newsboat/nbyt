@@ -1,0 +1,5 @@
+#!/bin/sh  
+echo "Starting yt-dlp"
+$3 --force-ipv4 -g -f $4 $1 | xargs mpv --speed=$2 --force-seekable=yes
+#mpv $1 --speed=$2
+#mpv $1 --speed=2.0

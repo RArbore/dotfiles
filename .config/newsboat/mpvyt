@@ -1,0 +1,3 @@
+#!/bin/sh  
+echo "Starting MPV"
+mpv $1 --speed=$2 --force-seekable=yes
