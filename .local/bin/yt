@@ -1,2 +1,2 @@
 #!/bin/sh
-xclip -o | xargs yt-dlp --force-ipv4 -g -f ${1:-best} | xargs mpv -speed=${2:-2.0}
+xclip -o | sed 's/&list.*//' | xargs yt-dlp --force-ipv4 -g -f ${1:-best} | xargs mpv -speed=${2:-2.0}

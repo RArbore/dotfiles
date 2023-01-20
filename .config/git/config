@@ -3,3 +3,5 @@
 	name = Russel Arbore
 [init]
 	defaultBranch = main
+[core]
+	compression = 9
